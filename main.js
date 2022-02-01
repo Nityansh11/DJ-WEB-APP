@@ -41,12 +41,12 @@ function gotPoses(results)
     {
         console.log(results);
         leftWristX= results[0].pose.leftWrist.x;
-        leftWristX= results[0].pose.leftWrist.y;
-        console.log("leftWristX = " + leftWristX +"leftWristY = "+ leftWristY );
+        leftWristY= results[0].pose.leftWrist.y;
+        console.log("leftWristX = " + leftWristX +" leftWristY = "+ leftWristY );
 
-        rightWrsitX= results[0].pose.rightWrist.x;
+        rightWristX= results[0].pose.rightWrist.x;
         rightWristY= results[0].pose.rightWrist.y;
-        console.log("rightWristX = " + rightWristX +"rightWristY = "+ rightWristY );
+        console.log("rightWristX = " + rightWristX +" rightWristY = "+ rightWristY );
     }
 }
 
